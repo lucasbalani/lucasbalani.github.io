@@ -1,0 +1,348 @@
+/*Site Mobile*/
+
+.bgnav{
+    background-color: rgb(231, 231, 231);
+}
+
+.navlogo{
+    padding-left: 2%;
+    padding-top: 2%;
+}
+
+html#index{
+    background-color: rgb(255, 165, 61);
+
+}
+
+.marginset{
+    margin-left: 30%;
+}
+
+.resizecontentcard{
+    font-family: 'roboto mono';
+    font-size: 12px;
+    margin-bottom: 0px;
+    margin-top: 1px;
+    padding: 2%;
+}
+
+.resizeimage{
+    margin-left: 0px;
+    margin-top: 1%;
+}
+
+.resizecolumn{
+    margin-top: 5%;
+}
+
+.resizecolumn2{
+    margin-top: 10%;
+
+}
+
+.resizecolumnexperience{
+    margin-top: 0%;
+    font-family: 'roboto mono';
+}
+
+.resizecard2{
+    font-family: 'roboto mono';
+    border-radius: 0px;
+    border: 1px solid black; 
+    border-bottom: 0px solid;   
+}
+
+.border{
+    border: 1px solid black;
+}
+
+.sourcecode{
+    font-family: 'source code pro';
+}
+
+.colortextsection2{
+    color: rgb(255, 0, 0);
+    font-family: 'roboto mono';
+}
+
+.resizeimgcard{
+    margin: 2% 24% 2% 24%;
+}
+
+.resizecardimage{
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.botaowppsize{
+    font-family: 'source code pro';
+    margin: 5% auto auto auto;
+}
+
+.centralizar{
+    text-align: center;
+}
+
+div#nodejstext{
+    border: 1px solid black;
+    border-top: 0px solid;
+    border-bottom: 0px;
+}
+
+img#imghtml{
+    margin-left: 35%;
+}
+
+img#imgnodejs{
+    margin-left: 35%;
+}
+
+.cardwidth{
+    width: 100%;
+}
+
+section#mobile{
+    background-color: white;
+}
+
+.border-rounded{
+    border-radius: 70px;
+}
+
+.border-roundedwhite{
+    border: 0px solid white;
+    border-radius: 70px;
+}
+
+.borderprofileimg{
+    border: 1px solid grey;
+}
+
+.inline{
+    display: inline-block;
+}
+
+.navbarfont{
+    font-family: 'roboto mono';
+}
+
+.espacicons{
+    margin: auto 3% auto auto;
+}
+
+.iconfolder{
+    color: white;
+    margin-left: 0px;
+}
+
+div#alignmentnavbar{
+    margin-left: 10px;
+}
+/*Fim Site Mobile*/
+
+/*Site Desktop*/
+div#bgcontainer{
+    background-color: honeydew;
+    border: 3px solid rgb(243, 148, 40);
+    border-radius: 3px;
+    border-style: inset;
+}
+
+.resizecarddesktop{
+    margin-left: 5%;
+    margin-top: 5%;
+    border: 1px solid rgb(45, 175, 45);
+}
+
+.resizecardrightdesktop{
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    border: 1px solid rgb(173, 173, 173);
+    font-family: 'roboto mono';
+}
+
+.resizeimgexperience{
+    border-radius: 100px;
+}
+
+.restylecardheadprojects{
+    font-family: 'poppins';
+}
+
+.restylecardproject{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    border: 1px solid rgb(45, 175, 45);
+}
+
+p#conteudocardprofile{
+    padding: 2%;
+    font-family: 'source code pro';
+    text-align: center;
+}
+
+input#buttonwhatsappdesktop{
+    padding: 2%;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    font-size: 20px;
+    width: 300px;
+}
+
+/*Contact*/
+html#contact{
+    background-color: black;
+}
+
+.stylecolumn1{/*estilo da coluna principal no mobile/desktop*/
+    background-image: url(/BULMA/criando\ meu\ portfolio/imagens/backgroundform.jpg);
+    border: 1px solid rgb(148, 62, 230);
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.stylecontainer1{
+    margin-top: 10%; 
+}
+
+.resizecard1{
+    margin-left: 28%;
+    width: 45%;
+    background-color: rgba(255, 255, 255, 0.774);
+    border: 2px inset black;
+    font-family: 'source code pro';
+}
+
+img#imgprofilecontact{
+    margin-left: 37%;
+    border:2px solid rgb(132, 1, 255);
+    border-radius: 50px;
+}
+
+svg#resizesvgdesk{
+    margin-top: -6px;
+}
+
+.cardcontent1desk{
+    text-align: center;
+}
+
+.formulario{
+    background-color: rgba(105, 17, 128, 0.863);
+    color: whitesmoke;
+    border: 1px solid rgb(76, 4, 94);
+    border-style: inset;
+    border-radius: 10px;
+    margin-top: 5%;
+}
+
+
+input#nome{
+    width: 50%;
+}
+input#telefone{
+    width: 50%;
+}
+input#email{
+    width: 60%;
+}
+
+select#empresa{
+    width: 100%;
+
+}
+
+h1#formtitle{
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 5%;
+    font-family: 'source code pro';
+}
+
+form{
+    margin-left: 10%;
+    font-family: 'source code pro';
+}
+
+.resizefield2{
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+hr#separadorform{
+    width: 80%;
+    margin-left: 9%;
+    background-color: rgb(138, 138, 138);
+}
+
+label#labelemail{
+    margin-right: 2%;
+}
+
+div#textarea{
+    width: 70%;
+    margin-left: 15%;
+}
+
+input#submitbutton{
+    margin-left: 45%;
+    margin-bottom: 5%;
+}
+
+/*Formulario Mobile*/
+p#paragmobile{
+    color: whitesmoke;
+    font-family: 'source code pro';
+    width: 90%;
+    margin-left: 10%;
+}
+
+input#nomemobile{
+    margin-left: -10px;
+}
+input#emailmobile{
+    margin-left: -10px;
+
+}
+
+input#celularmobile{
+    margin-left: -10px;
+
+}
+
+svg#resizesvgmobile{
+    margin-top: -10px;
+}
+
+select#selectmobile{
+    margin-left: -10px;
+
+}
+
+textarea#textareamobile{
+    margin-left: -10px;
+
+}
+
+label#centralizarlabel{
+    text-align: center;
+}
+
+.centralizarmobile{
+    text-align: center;
+    color: whitesmoke;
+}
+
+.resizecardmobile{
+    margin-bottom: 15%;
+    border: 3px outset rgb(18, 148, 29);
+    font-family: 'source code pro';
+}
+
+input#submitbuttonmobile{
+    margin-left: 30%;
+    margin-bottom: 5%;
+}
