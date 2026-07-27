@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0B0E14;
+  background-image:
+    linear-gradient(rgba(81, 43, 212, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(81, 43, 212, 0.08) 1px, transparent 1px);
+  background-size: 42px 42px;
+}
+
+.skill-badge {
+  @apply inline-block rounded-full border border-surface-border bg-surface-panel px-3 py-1 text-sm text-slate-200;
+}
+
+.skill-badge--agent {
+  @apply border-agent/40 text-agent;
+}
+
+.nav-link {
+  @apply text-slate-300 hover:text-dotnet-light transition-colors;
+}
+
+.btn-primary {
+  @apply inline-flex items-center gap-2 rounded-lg bg-dotnet px-5 py-2.5 font-semibold text-white hover:bg-dotnet-light transition-colors;
+}
+
+.btn-secondary {
+  @apply inline-flex items-center gap-2 rounded-lg border border-surface-border px-5 py-2.5 font-semibold text-slate-200 hover:border-dotnet-light hover:text-dotnet-light transition-colors;
+}
